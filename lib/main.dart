@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:inspiro_bot/providers/qoute_provider.dart';
 import 'package:inspiro_bot/screens/splash.dart';
 import 'package:inspiro_bot/utils/app_string.dart';
+import 'package:provider/provider.dart';
 
 
-void main(){
-   runApp(const MyApp());
+Future<void> main() async {
+   MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => QouteProvider()),
+       
+      ],
+      child:const MyApp());
 }
 
 

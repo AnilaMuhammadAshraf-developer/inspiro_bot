@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:inspiro_bot/constants/app_list.dart';
 import 'package:inspiro_bot/utils/app_color.dart';
-import 'package:inspiro_bot/widgets/custom_app_bar.dart';
 import 'package:inspiro_bot/widgets/custom_bottom_bar.dart';
 
 class MasterScreen extends StatefulWidget{
-   MasterScreen({super.key});
+   const MasterScreen({super.key});
 
   @override
   State<MasterScreen> createState() => _MasterScreenState();

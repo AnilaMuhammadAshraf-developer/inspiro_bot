@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:inspiro_bot/screens/home.dart';
 import 'package:inspiro_bot/screens/master.dart';
 import 'package:inspiro_bot/utils/app_color.dart';
 import 'package:inspiro_bot/utils/app_string.dart';

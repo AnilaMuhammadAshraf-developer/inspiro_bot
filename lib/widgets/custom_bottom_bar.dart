@@ -5,7 +5,7 @@ import 'package:inspiro_bot/utils/app_color.dart';
 class CustomBottomBar extends StatelessWidget{
   final int selectedIndex;
   final Function(int) onTap;
-   CustomBottomBar({super.key, required this.selectedIndex,required this.onTap});
+   const CustomBottomBar({super.key, required this.selectedIndex,required this.onTap});
 
   @override
   Widget build(BuildContext context){

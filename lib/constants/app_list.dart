@@ -14,10 +14,10 @@ class AppList {
       "icon": Icon(Icons.favorite, color: AppColor.appWhiteColor),
       "screen": HomeScreen(),
     },
-    {
-      "label": "Share",
-      "icon": Icon(Icons.share_sharp, color: AppColor.appWhiteColor),
-      "screen": HomeScreen(),
-    },
+    // {
+    //   "label": "Share",
+    //   "icon": Icon(Icons.share_sharp, color: AppColor.appWhiteColor),
+    //   "screen": HomeScreen(),
+    // },
   ];
 }
